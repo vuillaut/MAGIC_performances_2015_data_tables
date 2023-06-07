@@ -1,0 +1,40 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: MAGIC performances 2015 data tables
+message: >-
+  An extraction of data tables from the MAGIC performance
+  paper of 2015: https://arxiv.org/abs/1409.5594
+type: dataset
+authors:
+  - given-names: Thomas
+    family-names: Vuillaume
+    email: thomas.vuillaume@lapp.in2p3.fr
+    affiliation: 'LAPP, CNRS'
+    orcid: 'https://orcid.org/0000-0002-5686-2078'
+identifiers:
+  - type: doi
+    value: 10.1016/j.astropartphys.2015.02.005
+    description: >-
+      Original paper from which this data is extracted:  The
+      major upgrade of the MAGIC telescopes, Part II: A
+      performance study using observations of the Crab
+      Nebula Author links open overlay panel, J. Aleksíc et
+      al, 2015,
+repository-code: >-
+  https://github.com/vuillaut/MAGIC_performances_2015_data_tables/
+abstract: >-
+  An extraction of data tables from the MAGIC performance
+  paper of 2015: The major upgrade of the MAGIC telescopes,
+  Part II: A performance study using observations of the
+  Crab Nebula Author links open overlay panel, J. Aleksíc et
+  al, 2015,
+  https://doi.org/10.1016/j.astropartphys.2015.02.005
+
+
+  The arXiv version: https://arxiv.org/abs/1409.5594
+keywords:
+  - gamma-ray astronomy
+  - gamma-ray telescopes
+license: MIT
