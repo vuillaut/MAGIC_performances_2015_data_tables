@@ -1,0 +1,98 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: e_min, unit: GeV, datatype: float64}
+# - {name: e_max, unit: GeV, datatype: float64}
+# - {name: gamma-rate, unit: 1 / min, datatype: float64}
+# - {name: bkg-rate, unit: 1 / min, datatype: float64}
+# - {name: sensitivity_snr_cu, datatype: float64}
+# - {name: sensitivity_lima_1off_cu, datatype: float64}
+# - {name: sensitivity_lima_3off_cu, datatype: float64}
+# - {name: sensitivity_lima_5off_cu, datatype: float64}
+# - {name: sensitivity_snr, unit: 1 / (cm2 s TeV), datatype: float64}
+# - {name: gamma-rate_err, unit: 1 / min, datatype: float64}
+# - {name: bkg-rate_err, unit: 1 / min, datatype: float64}
+# - {name: sensitivity_snr_cu_err, datatype: float64}
+# - {name: sensitivity_lima_1off_cu_err, datatype: float64}
+# - {name: sensitivity_lima_3off_cu_err, datatype: float64}
+# - {name: sensitivity_lima_5off_cu_err, datatype: float64}
+# - {name: sensitivity_snr_err, unit: 1 / (cm2 s TeV), datatype: float64}
+# meta: !!omap
+# - __serialized_columns__:
+#     bkg-rate:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: &id001 !astropy.units.Unit {unit: 1 / min}
+#       value: !astropy.table.SerializedColumn {name: bkg-rate}
+#     bkg-rate_err:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: *id001
+#       value: !astropy.table.SerializedColumn {name: bkg-rate_err}
+#     e_max:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: &id002 !astropy.units.Unit {unit: GeV}
+#       value: !astropy.table.SerializedColumn {name: e_max}
+#     e_min:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: *id002
+#       value: !astropy.table.SerializedColumn {name: e_min}
+#     gamma-rate:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: &id003 !astropy.units.Unit {unit: 1 / min}
+#       value: !astropy.table.SerializedColumn {name: gamma-rate}
+#     gamma-rate_err:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: *id003
+#       value: !astropy.table.SerializedColumn {name: gamma-rate_err}
+#     sensitivity_lima_1off_cu:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: &id004 !astropy.units.Unit {unit: ''}
+#       value: !astropy.table.SerializedColumn {name: sensitivity_lima_1off_cu}
+#     sensitivity_lima_1off_cu_err:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: *id004
+#       value: !astropy.table.SerializedColumn {name: sensitivity_lima_1off_cu_err}
+#     sensitivity_lima_3off_cu:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: *id004
+#       value: !astropy.table.SerializedColumn {name: sensitivity_lima_3off_cu}
+#     sensitivity_lima_3off_cu_err:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: *id004
+#       value: !astropy.table.SerializedColumn {name: sensitivity_lima_3off_cu_err}
+#     sensitivity_lima_5off_cu:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: *id004
+#       value: !astropy.table.SerializedColumn {name: sensitivity_lima_5off_cu}
+#     sensitivity_lima_5off_cu_err:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: *id004
+#       value: !astropy.table.SerializedColumn {name: sensitivity_lima_5off_cu_err}
+#     sensitivity_snr:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: &id005 !astropy.units.Unit {unit: 1 / (cm2 s TeV)}
+#       value: !astropy.table.SerializedColumn {name: sensitivity_snr}
+#     sensitivity_snr_cu:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: *id004
+#       value: !astropy.table.SerializedColumn {name: sensitivity_snr_cu}
+#     sensitivity_snr_cu_err:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: *id004
+#       value: !astropy.table.SerializedColumn {name: sensitivity_snr_cu_err}
+#     sensitivity_snr_err:
+#       __class__: astropy.units.quantity.Quantity
+#       unit: *id005
+#       value: !astropy.table.SerializedColumn {name: sensitivity_snr_err}
+# schema: astropy-2.0
+e_min e_max gamma-rate bkg-rate sensitivity_snr_cu sensitivity_lima_1off_cu sensitivity_lima_3off_cu sensitivity_lima_5off_cu sensitivity_snr gamma-rate_err bkg-rate_err sensitivity_snr_cu_err sensitivity_lima_1off_cu_err sensitivity_lima_3off_cu_err sensitivity_lima_5off_cu_err sensitivity_snr_err
+63.0 100.0 3.01 4.06 6.7 8.8 7.1 6.8 7.3e-10 0.13 0.08 0.2 0.4 0.3 0.3 3e-11
+100.0 158.0 4.29 2.41 3.31 4.77 3.87 3.67 1.37e-10 0.12 0.06 0.12 0.14 0.11 0.1 5e-12
+158.0 251.0 3.37 0.54 2.0 2.95 2.38 2.25 3.05e-11 0.08 0.03 0.08 0.1 0.08 0.08 1.3000000000000001e-12
+251.0 398.0 1.36 0.066 1.72 2.8 2.16 2.03 9.300000000000001e-12 0.05 0.01 0.15 0.2 0.16 0.15 8e-13
+398.0 631.0 1.22 0.027 1.23 2.1 1.61 1.51 2.3e-12 0.04 0.006 0.16 0.18 0.18 0.15 3e-13
+631.0 1000.0 0.88 0.0133 1.19 2.18 1.64 1.53 7.2e-13 0.04 0.0018 0.1 0.12 0.09 0.11 6e-14
+1000.0 1585.0 0.58 0.0059 1.21 2.48 1.8 1.66 2.3000000000000003e-13 0.03 0.0007 0.1 0.11 0.09 0.09 1.8e-14
+1585.0 2512.0 0.3 0.0027 1.58 3.8 2.6 2.36 9e-14 0.02 0.0005 0.18 0.2 0.19 0.18 1e-14
+2512.0 3981.0 0.166 0.002 2.5 6.2 4.3 3.8 4.1e-14 0.016 0.0005 0.4 0.5 0.4 0.4 7e-15
+3981.0 6310.0 0.093 0.0014 3.7 10.2 6.8 6.1 1.7e-14 0.012 0.0003 0.7 1.0 0.7 0.7 3e-15
+6310.0 10000.0 0.06 0.0046 10.0 22.0 16.0 15.0 1.3e-14 0.01 0.0015 3.0 3.0 3.0 2.0 3e-15
