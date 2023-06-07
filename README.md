@@ -6,5 +6,7 @@ Author links open overlay panel_, J. Aleksíc et al, 2015, https://doi.org/10.10
 
 The arXiv version: https://arxiv.org/abs/1409.5594
 
+If you use this data, please cite in priority the original paper.
+
 
 
