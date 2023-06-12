@@ -7,5 +7,5 @@ The arXiv version: https://arxiv.org/abs/1409.5594
 
 If you use this data, please cite in priority the original paper.
 
-
-
+Run online:
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/vuillaut/MAGIC_performances_2015_data_tables/HEAD?labpath=figures.ipynb)
